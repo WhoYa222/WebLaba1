@@ -85,7 +85,7 @@ footer {
     height: 100%;
     left: 47%;
 }
-.half:before {
+.pol:before {
     content:'';
     position:absolute;
     z-index:1;

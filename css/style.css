@@ -85,3 +85,12 @@ footer {
     height: 100%;
     left: 47%;
 }
+.half:before {
+    content:'';
+    position:absolute;
+    z-index:1;
+    background:white;
+    width: 50%;
+    height: 100%;
+    right: 47%;
+}

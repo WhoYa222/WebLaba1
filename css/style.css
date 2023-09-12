@@ -73,9 +73,7 @@ footer {
 .half {
     position:relative;
 }
-.font{
-	font-size:6em;
-}
+
 .half:after {
     content:'';
     position:absolute;

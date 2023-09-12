@@ -83,15 +83,3 @@ footer {
     height: 100%;
     left: 47%;
 }
-.pol {
-    position:relative;
-}
-.pol:after {
-    content:'';
-    position:absolute;
-    z-index:1;
-    background:white;
-    width: 50%;
-    height: 100%;
-    right: 55%;
-}

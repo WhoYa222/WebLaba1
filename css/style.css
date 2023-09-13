@@ -87,7 +87,7 @@ footer {
   position: relative;
 }
 
-.input-icon: {
+.input-icon {
   position: absolute;
   z-index: 2;
   line-height: 34px;

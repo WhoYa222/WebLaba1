@@ -83,12 +83,11 @@ footer {
     height: 100%;
     left: 47%;
 }
-.form-icon {
+.form-star {
   position: relative;
 }
 
-.input-icon{
+.input-star{
   z-index: 2;
-  line-height: 34px;
   left: -18px;
 }

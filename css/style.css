@@ -1,6 +1,6 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	background: #000 url(alondra-lucia--_os35-xQjc-unsplash.jpg); /* Фоновый цвет и фоновый рисунок*/
+	background-image: url("alondra-lucia--_os35-xQjc-unsplash.jpg");
 	color: #fff; /*Цвет текста на странице*/
 	background-attachment: fixed; /* Фон страницы фиксируется */
 	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */

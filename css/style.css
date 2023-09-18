@@ -1,9 +1,10 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	background-image: url("alondra-lucia--_os35-xQjc-unsplash.jpg");
-	color: #fff; /*Цвет текста на странице*/
-	background-attachment: fixed; /* Фон страницы фиксируется */
-	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	background: url("img/Fon.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .count-input {

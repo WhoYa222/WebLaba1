@@ -1,5 +1,5 @@
 body {
-    padding-top: 70x; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	background: #000 url(img/Fon.jpg); /* Фоновый цвет и фоновый рисунок*/
 	color: #fff; /*Цвет текста на странице*/
 	background-attachment: fixed; /* Фон страницы фиксируется */

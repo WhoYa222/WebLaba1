@@ -96,12 +96,3 @@ background: url("../img/Fon.jpg") no-repeat center center fixed;
   z-index: 2;
   left: -18px;
 }
-
-.form-left {
-  position: relative;
-}
-
-.input-left{
-  z-index: 2;
-  left: -18px;
-}

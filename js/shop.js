@@ -84,7 +84,7 @@ $(document).ready(function() {
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
-			<input readonly class="Ratchet & Clank: Rift Apart"></input>
+			<input readonly class="Product1"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
 			$('.product0').val("Product1");

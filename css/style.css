@@ -83,7 +83,7 @@ footer {
     content:'';
     position:absolute;
     z-index:1;
-    background:white;
+background: url("../img/Fon.jpg") no-repeat center center fixed; 
     width: 50%;
     height: 100%;
     left: 47%;

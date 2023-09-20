@@ -57,6 +57,10 @@ $(document).ready(function() {
 		var a = $('.count-input').val();
 		AddToCard(4, a);
 	});
+		$('.ok-5').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(5, a);
+	});
 	
 	
 	function AddToCard(n, amount){

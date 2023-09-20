@@ -99,7 +99,7 @@ $(document).ready(function() {
 			<input readonly class="product1"></input>
 			<input readonly class="amount1"></input>
 			</div>`)
-			$('.product1').val("Product2");
+			$('.product1').val("Diablo IV");
 			$('.amount1').val(cart[i]);
 					break;
 		
@@ -111,7 +111,7 @@ $(document).ready(function() {
 			<input readonly class="product2"></input>
 			<input readonly class="amount2"></input>
 			</div>`)
-			$('.product2').val("Product3");
+			$('.product2').val("Darkest Dungeon");
 			$('.amount2').val(cart[i]);
 					break;
 			

@@ -150,7 +150,7 @@ $(document).ready(function() {
 			<input readonly class="product5"></input>
 			<input readonly class="amount5"></input>
 			</div>`)
-			$('.product5').val("Diablo IVV");
+			$('.product5').val("Diablo IV");
 			$('.amount5').val(cart[i]);
 					break;
 				default:

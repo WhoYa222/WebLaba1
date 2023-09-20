@@ -61,7 +61,30 @@ $(document).ready(function() {
 		var a = $('.count-input').val();
 		AddToCard(5, a);
 	});
-	
+		$('.ok-7').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(6, a);
+	});
+	$('.ok-8').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(7, a);
+	});
+		$('.ok-9').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(8, a);
+	});
+	$('.ok-10').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(9, a);
+	});
+		$('.ok-11').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(10, a);
+	});
+		$('.ok-12').on('click', function() {
+		var a = $('.count-input').val();
+		AddToCard(11, a);
+	});
 	
 	function AddToCard(n, amount){
 		if(amount>0) 
@@ -150,9 +173,80 @@ $(document).ready(function() {
 			<input readonly class="product5"></input>
 			<input readonly class="amount5"></input>
 			</div>`)
-			$('.product5').val("Diablo IV");
+			$('.product5').val("6");
 			$('.amount5').val(cart[i]);
 					break;
+				case 6:
+					//var t = "Product7";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product6"></input>
+			<input readonly class="amount6"></input>
+			</div>`)
+			$('.product6').val("7");
+			$('.amount6').val(cart[i]);
+					break;
+
+				case 7: 
+					//var t = "Product8";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product7"></input>
+			<input readonly class="amount7"></input>
+			</div>`)
+			$('.product7').val("8");
+			$('.amount7').val(cart[i]);
+					break;
+		
+				case 8:
+					//var t = "Product9";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product8"></input>
+			<input readonly class="amount8"></input>
+			</div>`)
+			$('.product8').val("9");
+			$('.amount8').val(cart[i]);
+					break;
+			
+				case 9:
+					//var t = "Product10";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product9"></input>
+			<input readonly class="amount9"></input>
+			</div>`)
+			$('.product9').val("10");
+			$('.amount9').val(cart[i]);
+					break;
+			
+				case 10:
+					//var t = "Product11";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product10"></input>
+			<input readonly class="amount10"></input>
+			</div>`)
+			$('.product10').val("11");
+			$('.amount10').val(cart[i]);
+					break;
+				case 11:
+					//var t = "Product12";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product11"></input>
+			<input readonly class="amount11"></input>
+			</div>`)
+			$('.product11').val("12");
+			$('.amount11').val(cart[i]);
+					break;
+					
 				default:
 		
 				break;

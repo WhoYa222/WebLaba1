@@ -123,7 +123,7 @@ $(document).ready(function() {
 			<input readonly class="product3"></input>
 			<input readonly class="amount3"></input>
 			</div>`)
-			$('.product3').val("Product4");
+			$('.product3').val("Cult of the Lumb");
 			$('.amount3').val(cart[i]);
 					break;
 			

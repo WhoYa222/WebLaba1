@@ -138,7 +138,17 @@ $(document).ready(function() {
 			$('.product4').val("Stray");
 			$('.amount4').val(cart[i]);
 					break;
-
+				case 5:
+					//var t = "Product6";
+					document.querySelector('.cart-body').insertAdjacentHTML(
+			'afterbegin',
+			`<div class="row">
+			<input readonly class="product5"></input>
+			<input readonly class="amount5"></input>
+			</div>`)
+			$('.product5').val("Diablo IV");
+			$('.amount5').val(cart[i]);
+					break;
 				default:
 		
 				break;

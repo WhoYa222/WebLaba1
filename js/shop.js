@@ -173,7 +173,7 @@ $(document).ready(function() {
 			<input readonly class="product5"></input>
 			<input readonly class="amount5"></input>
 			</div>`)
-			$('.product5').val("6");
+			$('.product5').val("Lies of P");
 			$('.amount5').val(cart[i]);
 					break;
 				case 6:
@@ -184,7 +184,7 @@ $(document).ready(function() {
 			<input readonly class="product6"></input>
 			<input readonly class="amount6"></input>
 			</div>`)
-			$('.product6').val("7");
+			$('.product6').val("Papers, Please");
 			$('.amount6').val(cart[i]);
 					break;
 
@@ -196,7 +196,7 @@ $(document).ready(function() {
 			<input readonly class="product7"></input>
 			<input readonly class="amount7"></input>
 			</div>`)
-			$('.product7').val("8");
+			$('.product7').val("System Shock Remake");
 			$('.amount7').val(cart[i]);
 					break;
 		
@@ -208,7 +208,7 @@ $(document).ready(function() {
 			<input readonly class="product8"></input>
 			<input readonly class="amount8"></input>
 			</div>`)
-			$('.product8').val("9");
+			$('.product8').val("Hollow Knight");
 			$('.amount8').val(cart[i]);
 					break;
 			
@@ -220,7 +220,7 @@ $(document).ready(function() {
 			<input readonly class="product9"></input>
 			<input readonly class="amount9"></input>
 			</div>`)
-			$('.product9').val("10");
+			$('.product9').val("Atomic Heart");
 			$('.amount9').val(cart[i]);
 					break;
 			
@@ -232,7 +232,7 @@ $(document).ready(function() {
 			<input readonly class="product10"></input>
 			<input readonly class="amount10"></input>
 			</div>`)
-			$('.product10').val("11");
+			$('.product10').val("Baldur’s Gate 3");
 			$('.amount10').val(cart[i]);
 					break;
 				case 11:
@@ -243,7 +243,7 @@ $(document).ready(function() {
 			<input readonly class="product11"></input>
 			<input readonly class="amount11"></input>
 			</div>`)
-			$('.product11').val("12");
+			$('.product11').val("Starfield");
 			$('.amount11').val(cart[i]);
 					break;
 					
